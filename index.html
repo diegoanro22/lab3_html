@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busqueda del amor</title>
+</head>
+<body>
+    <header>
+        <h1>Busqueda del amor</h1>
+        <p>Embárcate en una aventura en la que buscarás el amor verdadero. ¿Estás listo para tomar decisiones que marcarán tu destino?</p>
+    </header>
+
+    <figure>
+        <img src="assets/amor.jpg" alt="Tú enamorado" width="400">
+        <figcaption>¿Quisieras estar así?</figcaption>
+    </figure>
+
+    <main>
+        <details>
+            <summary>¿Cómo jugar?</summary>
+            <p>Elige un camino y avanza en la historia. Cada elección te llevará a nuevas oportunidades en tu búsqueda del amor.</p>
+        </details>
+
+        <article>
+            <h2>Introducción</h2>
+            <p>Después de mucho tiempo soltero/a, decides que es hora de encontrar el amor. ¿Dónde empezarás tu aventura?</p>
+        </article>
+
+        <nav>
+            <ul>
+                <li><a href="paginas/cafe.html"> Ir a una cafetería</a></li>
+                <li><a href="paginas/app.html"> Probar una app de citas</a></li>
+                <li><a href="paginas/amigo.html"> Un amigo te lo presenta</a></li>
+                <li><a href="paginas/clase.html"> Estudian en la misma clase</a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <h2>Posibles encuentros</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Lugar</th>
+                        <th>Posible Encuentro</th>
+                        <th>Oportunidades de amor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Cafetería</td>
+                        <td>Un/a amante del café con una gran conversación</td>
+                        <td>Una conexión sincera basada en intereses en común</td>
+                    </tr>
+                    <tr>
+                        <td>App de citas</td>
+                        <td>Alguien con gustos similares pero tímido/a en persona</td>
+                        <td>Posibilidad de una relación digital antes de conocerse en persona</td>
+                    </tr>
+                    <tr>
+                        <td>Un amigo te lo presenta</td>
+                        <td>Alguien que comparte tu círculo social</td>
+                        <td>Una relación basada en confianza y amigos en común</td>
+                    </tr>
+                    <tr>
+                        <td>Estudian en la misma clase</td>
+                        <td>Un/a compañero/a que comparte tus intereses académicos</td>
+                        <td>Una relación que se fortalece con el tiempo</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Las experiencias pueden cambiar según tus decisiones.</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section>
+            <h2> ¿Cómo sería tu amor ideal?</h2>
+            <p>Llena el siguiente forms de como quisieras que fuera tu siguiente pareja</p>
+            <form action="" >
+                <label for="name">Tu nombre:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="caracteristics">¿Qué cualidades buscas en una pareja?</label><br>
+                <textarea id="caracteristics" name="caracteristics" ></textarea><br>
+                <label>¿Qué tan importante es el romance en una relación?</label>
+                <select name="romance">
+                    <option value="muy_importante">Muy importante</option>
+                    <option value="importante">Importante</option>
+                    <option value="neutral">Neutral</option>
+                    <option value="poco_importante">Poco importante</option>
+                </select><br>
+                
+                <label>¿Dónde crees que podrías encontrar a esa persona especial?</label><br>
+                <input type="radio" id="option_cafe" name="love_place" value="cafe">
+                <label for="option_cafe">Cafetería</label>
+
+                <input type="radio" id="option_app" name="love_place" value="app">
+                <label for="option_app">App de citas</label>
+
+                <input type="radio" id="option_amigo" name="love_place" value="amigo">
+                <label for="option_amigo">Un amigo te lo presenta</label>
+
+                <input type="radio" id="option_clase" name="love_place" value="clase">
+                <label for="option_clase">Estudian en la misma clase</label><br>
+
+                <label>Anteriormente, ¿has tenido pareja?</label>
+                <input type="checkbox" name="subscribe" value="yes"><br>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section>
+            <h2> La canción más romántica en mi opinión</h2>
+            <audio controls>
+                <source src="assets/lovesong.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Diego Rosales 23258 - Busqueda del amor.</p>
+    </footer>
+</body>
+</html>
